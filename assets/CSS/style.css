@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Leckerli+One&family=Nunito+Sans:wght@300&family=Patrick+Hand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Nunito Sans;
+    color: #383232;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* page headline */
+
+#home-text-top {
+    font-family: Leckerli One;
+    font-size: 600%;
+    font-weight: 800;
+    letter-spacing: 3px;
+    padding-top: 30px;
+    color: #383232;
+}
+
+/* navigation menu */
+
+nav li {
+    float: left;
+    padding-top: 10px;
+    list-style-type: none;
+    margin-left: 30px;
+    font-size: 150%;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    border-bottom: 1px solid #383232;
+}
+
+.active {
+    border-bottom: 1px solid #383232;
+}
+
+/* hero image */
+
+#home-hero-outer {
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#home-hero {
+    height: 450px;
+    background: url(../CSS/images/cat.png) no-repeat center center;
+}
+
+/* home page info content */
+
+#home-info h2 {
+    text-align: center;
+    font-size: 200%;
+}
+
+.home-info-boxes {
+    display: flex;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.home-info-boxes h2 {
+    font-family: Leckerli One;
+    height: 75px;
+}
+
+.home-info-boxes p {
+    padding-top: 10px;
+    margin-bottom: 30px;
+    
+}
+
+.home-left-heading {
+    width: 33%;
+    float: left;
+    text-align: center;
+    margin-left: 70px;
+}
+
+.home-center-heading {
+    width: 33%;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 70px;
+
+}
+
+.home-right-heading {
+    width: 33%;
+    float: right;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+/* home page images */
+
+#home-left-image {
+    background: url(../CSS/images/house.png) no-repeat center center;
+    height: 300px;
+    width: auto;
+
+}
+
+#home-center-image {
+    background: url(../CSS/images/nature.png) no-repeat center center;
+    height: 300px;
+    width: auto;
+}
+
+#home-right-image {
+    background: url(../CSS/images/community.png) no-repeat center center;
+    height: 300px;
+    width: auto;
+}
+
+/* for smaller screens */
+
+@media screen and (max-width: 800px) {
+    .home-info-boxes {
+        display: block;
+    }
+
+    .home-info-boxes p {
+        margin: auto;
+        margin-bottom: 30px;
+        width: 450px;
+    }
+
+    .home-left-heading {
+        width: 100%;
+        text-align: center;
+        float: none;
+        margin-left: 0;
+    }
+
+    .home-center-heading {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .home-right-heading {
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
