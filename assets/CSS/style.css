@@ -137,12 +137,13 @@ nav li {
 
 @media screen and (max-width: 800px) {
     .home-info-boxes {
+        width: 100%;
         display: block;
     }
     .home-info-boxes p {
         margin: auto;
         margin-bottom: 30px;
-        width: 450px;
+        width: 95%;
     }
     .home-left-heading {
         width: 100%;
@@ -152,7 +153,7 @@ nav li {
     }
     .home-center-heading {
         width: 100%;
-        margin: 0 auto;
+        margin: auto;
         text-align: center;
         margin-left: 0;
     }
