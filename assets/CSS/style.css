@@ -177,9 +177,9 @@ p {
     text-align: justify;
 }
 
-article > p {
-    margin-left: 300px;
-    margin-right: 300px;
+article p {
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .article-picture {
