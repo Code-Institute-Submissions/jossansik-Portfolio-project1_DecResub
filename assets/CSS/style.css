@@ -20,10 +20,7 @@ h1 {
 #home-text-top {
     font-family: Leckerli One;
     font-size: 600%;
-    font-weight: 800;
-    letter-spacing: 3px;
     padding-top: 30px;
-    color: #383232;
 }
 
 /* navigation menu */
@@ -164,4 +161,30 @@ a:hover {
         margin-left: 0;
         margin-right: 0;
     }
+}
+
+/* about and history article pages */
+
+#article-header {
+
+    font-family: Leckerli One;
+    font-size: 250%;
+    padding-top: 80px;
+
+}
+
+p {
+    text-align: justify;
+}
+
+article > p {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#croft {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
