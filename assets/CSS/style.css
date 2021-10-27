@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Leckerli+One&family=Nunito+Sans:wght@300&family=Patrick+Hand&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -15,25 +14,11 @@ h1 {
     text-align: center;
 }
 
-/* page headline */
-
-#home-text-top {
-    font-family: Leckerli One;
-    font-size: 600%;
-    padding-top: 30px;
+p {
+    text-align: justify;
 }
 
-/* navigation menu */
-
-nav li {
-    float: left;
-    padding-top: 10px;
-    list-style-type: none;
-    margin-left: 30px;
-    font-size: 150%;
-}
-
-nav a {
+a {
     text-decoration: none;
     color: inherit;
 }
@@ -45,6 +30,27 @@ a:hover {
 .active {
     border-bottom: 1px solid #383232;
 }
+
+
+/* page headline */
+
+#home-text-top {
+    font-family: Leckerli One;
+    font-size: 600%;
+    padding-top: 30px;
+}
+
+
+/* navigation menu */
+
+nav li {
+    float: left;
+    padding-top: 10px;
+    list-style-type: none;
+    margin-left: 30px;
+    font-size: 150%;
+}
+
 
 /* hero image */
 
@@ -58,6 +64,7 @@ a:hover {
     height: 450px;
     background: url(../CSS/images/cat.png) no-repeat center center;
 }
+
 
 /* home page info content */
 
@@ -80,7 +87,6 @@ a:hover {
 .home-info-boxes p {
     padding-top: 10px;
     margin-bottom: 30px;
-    
 }
 
 .home-left-heading {
@@ -95,7 +101,6 @@ a:hover {
     margin: 0 auto;
     text-align: center;
     margin-left: 70px;
-
 }
 
 .home-right-heading {
@@ -106,13 +111,13 @@ a:hover {
     margin-right: 70px;
 }
 
+
 /* home page images */
 
 #home-left-image {
     background: url(../CSS/images/house.png) no-repeat center center;
     height: 300px;
     width: auto;
-
 }
 
 #home-center-image {
@@ -127,33 +132,30 @@ a:hover {
     width: auto;
 }
 
+
 /* for smaller screens */
 
 @media screen and (max-width: 800px) {
     .home-info-boxes {
         display: block;
     }
-
     .home-info-boxes p {
         margin: auto;
         margin-bottom: 30px;
         width: 450px;
     }
-
     .home-left-heading {
         width: 100%;
         text-align: center;
         float: none;
         margin-left: 0;
     }
-
     .home-center-heading {
         width: 100%;
         margin: 0 auto;
         text-align: center;
         margin-left: 0;
     }
-
     .home-right-heading {
         width: 100%;
         float: none;
@@ -163,30 +165,54 @@ a:hover {
     }
 }
 
+
+/* footer content */
+
+footer {
+    height: 325px;
+    background-color: #383232;
+    padding: 25px 25px 0 25px;
+}
+
+footer p {
+    color: white;
+    float: left;
+}
+
+footer div {
+    width: 30%;
+    float: left;
+    display: block;
+}
+
+footer iframe {
+    width: 60%;
+    float: right;
+}
+
+
 /* about and history article pages */
 
 #article-header {
-
     font-family: Leckerli One;
     font-size: 250%;
     padding-top: 80px;
-
 }
 
-p {
-    text-align: justify;
+article {
+    width: 60%;
+    margin: auto;
 }
 
 article p {
-    margin-left: 200px;
-    margin-right: 200px;
+    padding: 30px 0 30px 0;
 }
 
 .article-picture {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
 }
 
 figure figcaption {
