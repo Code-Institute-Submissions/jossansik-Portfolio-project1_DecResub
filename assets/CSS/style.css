@@ -182,9 +182,13 @@ article > p {
     margin-right: 300px;
 }
 
-#croft {
+.article-picture {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+figure figcaption {
+    text-align: center;
 }
