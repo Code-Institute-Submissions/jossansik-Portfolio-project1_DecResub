@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -32,7 +33,7 @@ a:hover {
 }
 
 
-/* page headline */
+/* page header */
 
 #home-text-top {
     font-family: Leckerli One;
@@ -43,12 +44,24 @@ a:hover {
 
 /* navigation menu */
 
-nav li {
+#navcontainer {
     float: left;
-    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+nav li {
+    display: inline;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 1%;
+    padding-right: 1%;
     list-style-type: none;
-    margin-left: 30px;
-    font-size: 150%;
+    font-size: 120%;
+    text-transform: uppercase;
 }
 
 
@@ -133,7 +146,7 @@ nav li {
 }
 
 
-/* for smaller screens */
+/* for smaller screens with a max-width of 800px */
 
 @media screen and (max-width: 800px) {
     .home-info-boxes {
@@ -163,6 +176,63 @@ nav li {
         text-align: center;
         margin-left: 0;
         margin-right: 0;
+    }
+    article {
+        width: 90%;
+        margin: auto;
+    }
+    article p {
+        padding: 30px 0 30px 0;
+    }
+    .article-picture {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .home-info-boxes {
+        width: 100%;
+        display: block;
+    }
+    .home-info-boxes p {
+        margin: auto;
+        margin-bottom: 30px;
+        width: 95%;
+    }
+    .home-left-heading {
+        width: 100%;
+        text-align: center;
+        float: none;
+        margin-left: 0;
+    }
+    .home-center-heading {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        margin-left: 0;
+    }
+    .home-right-heading {
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    article {
+        width: 90%;
+        margin: auto;
+    }
+    article p {
+        padding: 30px 0 30px 30px;
+    }
+    .article-picture {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
     }
 }
 
@@ -218,4 +288,51 @@ article p {
 
 figure figcaption {
     text-align: center;
+}
+
+figure:last-child {
+    padding-bottom: 10%;
+}
+
+
+/* gallery */
+
+.gallery {
+    column-count: 3;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.gallery>div {
+    position: relative;
+    float: left;
+}
+
+.gallery>div>img {
+    width: 100%;
+    transition: .1s transform;
+    transform: translateZ(0);
+    /* hack */
+}
+
+.gallery>div:hover {
+    z-index: 1;
+}
+
+.gallery>div:hover>img {
+    transform: scale(1.8, 1.8);
+    transition: .3s transform;
+}
+
+.cf:before,
+.cf:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+.cf:after {
+    clear: both;
 }
