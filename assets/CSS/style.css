@@ -75,7 +75,7 @@ nav li {
 
 #home-hero {
     height: 450px;
-    background: url(../images/cat.png) no-repeat center center;
+    background: url(../images/home/cat.webp) no-repeat center center;
 }
 
 
@@ -128,19 +128,19 @@ nav li {
 /* home page images */
 
 #home-left-image {
-    background: url(../images/house.png) no-repeat center center;
+    background: url(../images/home/house.webp) no-repeat center center;
     height: 300px;
     width: auto;
 }
 
 #home-center-image {
-    background: url(../images/nature.png) no-repeat center center;
+    background: url(../images/home/nature.webp) no-repeat center center;
     height: 300px;
     width: auto;
 }
 
 #home-right-image {
-    background: url(../images/community.png) no-repeat center center;
+    background: url(../images/home/community.webp) no-repeat center center;
     height: 300px;
     width: auto;
 }
@@ -215,6 +215,7 @@ figure:last-child {
 }
 
 .gallery>div>a {
+    width: 100%;
     position: relative;
     float: left;
 }
@@ -227,7 +228,6 @@ figure:last-child {
     width: 100%;
     transition: .1s transform;
     transform: translateZ(0);
-    filter: grayscale(100%);
 }
 
 .gallery>div>a>video {

@@ -6,6 +6,7 @@ __pycache__/
 *.py[cod]
 node_modules/
 .github/
+.DS_Store
 
 ### VisualStudioCode ###
 .vscode/*      # Maybe .vscode/**/* instead - see comments
