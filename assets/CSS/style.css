@@ -227,6 +227,7 @@ figure:last-child {
     width: 100%;
     transition: .1s transform;
     transform: translateZ(0);
+    filter: grayscale(100%);
 }
 
 .gallery>div>a>video {
@@ -242,6 +243,7 @@ figure:last-child {
 .gallery>div>a:hover>img {
     transform: scale(1.5, 1.5);
     transition: .3s transform;
+    filter: none;
 }
 
 .gallery>div>a:hover>p {
@@ -340,6 +342,9 @@ figure:last-child {
         float: none;
         display: block;
         padding-bottom: 25px;
+    }
+    .gallery>div>a>img {
+        filter: none;
     }
 }
 
