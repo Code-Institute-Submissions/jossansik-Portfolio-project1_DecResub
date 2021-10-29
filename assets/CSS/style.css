@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Nunito Sans;
+    font-family: 'Nunito Sans';
     color: #383232;
 }
 
@@ -36,7 +36,7 @@ a:hover {
 /* page header */
 
 #home-text-top {
-    font-family: Leckerli One;
+    font-family: 'Leckerli One';
     font-size: 600%;
     padding-top: 30px;
 }
@@ -93,7 +93,7 @@ nav li {
 }
 
 .home-info-boxes h2 {
-    font-family: Leckerli One;
+    font-family: 'Leckerli One';
     height: 75px;
 }
 
@@ -174,7 +174,7 @@ footer iframe {
 /* about and history article pages */
 
 #article-header {
-    font-family: Leckerli One;
+    font-family: 'Leckerli One';
     font-size: 250%;
     padding-top: 80px;
 }
@@ -320,7 +320,7 @@ figure:last-child {
         margin: auto;
     }
     article p {
-        padding: 20px 10 15px 10px;
+        padding: 20px 10px 15px 10px;
     }
     .article-picture {
         display: block;
