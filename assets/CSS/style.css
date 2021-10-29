@@ -273,7 +273,7 @@ figure:last-child {
 }
 
 
-/* for screens with a max-width of 720px */
+/* for screens with a max-width of 1024px */
 
 @media screen and (max-width: 1024px) {
     #navcontainer {
@@ -320,7 +320,7 @@ figure:last-child {
         margin: auto;
     }
     article p {
-        padding: 30px 0 30px 30px;
+        padding: 20px 10 15px 10px;
     }
     .article-picture {
         display: block;
@@ -349,10 +349,28 @@ figure:last-child {
 }
 
 
-/* for screens with a min-width of 500px and max-width of 720px */
+/* for screens with a min-width of 720px and max-width of 1024px */
 
-@media screen and (min-width: 500px) and (max-width: 1024px) {
+@media screen and (min-width: 720px) and (max-width: 1024px) {
     .home-info-boxes p {
         width: 436px;
+    }
+}
+
+
+/* for screens with a min-width of 430px and max-width of 720px */
+
+@media screen and (min-width: 430px) and (max-width: 720px) {
+    .home-info-boxes p {
+        width: 436px;
+    }
+}
+
+
+/* for screens with a min-width of 300px and max-width of 430px */
+
+@media screen and (min-width: 300px) and (max-width: 430px) {
+    #navcontainer {
+        font-size: 10px;
     }
 }
