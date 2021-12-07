@@ -228,23 +228,23 @@ This code is in large parts derived from the Code Institute course materials
     padding-bottom: 10%;
 }
 
-.gallery>div>div {
+.gallery>div {
     width: 100%;
     position: relative;
     float: left;
 }
 
-.gallery>div>div>p {
+.gallery>div>p {
     display: none;
 }
 
-.gallery>div>div>img {
+.gallery>div>img {
     width: 100%;
     transition: .1s transform;
     transform: translateZ(0);
 }
 
-.gallery>div>div>video {
+.gallery>div>video {
     width: 100%;
     transition: .1s transform;
     transform: translateZ(0);
@@ -253,11 +253,11 @@ This code is in large parts derived from the Code Institute course materials
 
 /* This creates a scaling effect when hovering the images */
 
-.gallery>div>div:hover {
+.gallery>div:hover {
     z-index: 1;
 }
 
-.gallery>div>div:hover>img {
+.gallery>div:hover>img {
     transform: scale(1.5, 1.5);
     transition: .3s transform;
     filter: none;
@@ -266,7 +266,7 @@ This code is in large parts derived from the Code Institute course materials
 
 /* This displays the caption on the images when hovered */
 
-.gallery>div>div:hover>p {
+.gallery>div:hover>p {
     padding: 0 5px 0 5px;
     color: white;
     display: block;
@@ -276,7 +276,7 @@ This code is in large parts derived from the Code Institute course materials
     bottom: 1%;
 }
 
-.gallery>div>div:hover>video {
+.gallery>div:hover>video {
     transform: scale(1.5, 1.5);
     transition: .3s transform;
 }
@@ -363,7 +363,7 @@ This code is in large parts derived from the Code Institute course materials
         display: block;
         padding-bottom: 25px;
     }
-    .gallery>div>div>img {
+    .gallery>div>img {
         filter: none;
     }
 }
@@ -399,7 +399,12 @@ This code is in large parts derived from the Code Institute course materials
 /* Styling for screens with max-width of 720px the images stack instead of displaying in columns */
 
 @media screen and (max-width: 720px) {
-    .gallery>div>div:hover>img {
+    .gallery>div:hover>img {
+        transform: none;
+        transition: none;
+        filter: none;
+    }
+    .gallery>div:hover>video {
         transform: none;
         transition: none;
         filter: none;
