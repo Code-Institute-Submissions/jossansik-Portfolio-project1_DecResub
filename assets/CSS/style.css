@@ -1,4 +1,9 @@
+/* Imports the fonts from Google fonts  */
+
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Leckerli+One&family=Nunito+Sans:wght@300&family=Patrick+Hand&display=swap');
+
+/* This styles the main elements of the page */
+
 * {
     margin: 0;
     padding: 0;
@@ -24,6 +29,9 @@ a {
     color: inherit;
 }
 
+
+/* Creates an underline when hovering links */
+
 a:hover {
     border-bottom: 1px solid #383232;
 }
@@ -33,7 +41,7 @@ a:hover {
 }
 
 
-/* page header */
+/* This styles the page header */
 
 #home-text-top {
     font-family: 'Leckerli One';
@@ -42,7 +50,7 @@ a:hover {
 }
 
 
-/* navigation menu */
+/* This styles the navigation menu */
 
 #navcontainer {
     float: left;
@@ -65,7 +73,7 @@ nav li {
 }
 
 
-/* hero image */
+/* This styles the hero image and main header */
 
 #home-hero-outer {
     text-align: center;
@@ -79,7 +87,7 @@ nav li {
 }
 
 
-/* home page info content */
+/* This styles the home page info text content */
 
 #home-info h2 {
     text-align: center;
@@ -125,7 +133,7 @@ nav li {
 }
 
 
-/* home page images */
+/* This styles the home page info-box images */
 
 #home-left-image {
     background: url(../images/home/house.webp) no-repeat center center;
@@ -146,7 +154,7 @@ nav li {
 }
 
 
-/* footer content */
+/* This styles the footer content */
 
 footer {
     height: 325px;
@@ -171,7 +179,7 @@ footer iframe {
 }
 
 
-/* about and history article pages */
+/* This styles the about and history article pages */
 
 #article-header {
     font-family: 'Leckerli One';
@@ -188,13 +196,6 @@ article p {
     padding: 30px 0 30px 0;
 }
 
-.article-picture {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
-
 figure figcaption {
     text-align: center;
 }
@@ -204,7 +205,20 @@ figure:last-child {
 }
 
 
-/* gallery */
+/* This styles the about and history article page images */
+
+.article-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+
+/* 
+This styles the gallery 
+This code is in large parts derived from the Code Institute course materials
+*/
 
 .gallery {
     column-count: 3;
@@ -236,6 +250,9 @@ figure:last-child {
     transform: translateZ(0);
 }
 
+
+/* This creates a scaling effect when hovering the images */
+
 .gallery>div>a:hover {
     z-index: 1;
 }
@@ -245,6 +262,9 @@ figure:last-child {
     transition: .3s transform;
     filter: none;
 }
+
+
+/* This displays the caption on the images when hovered */
 
 .gallery>div>a:hover>p {
     padding: 0 5px 0 5px;
@@ -273,7 +293,7 @@ figure:last-child {
 }
 
 
-/* for screens with a max-width of 1024px */
+/* Styling for screens with a max-width of 1024px */
 
 @media screen and (max-width: 1024px) {
     #navcontainer {
@@ -349,7 +369,7 @@ figure:last-child {
 }
 
 
-/* for screens with a min-width of 720px and max-width of 1024px */
+/* Styling for screens with a min-width of 720px and max-width of 1024px */
 
 @media screen and (min-width: 720px) and (max-width: 1024px) {
     .home-info-boxes p {
@@ -358,7 +378,7 @@ figure:last-child {
 }
 
 
-/* for screens with a min-width of 430px and max-width of 720px */
+/* Styling for screens with a min-width of 430px and max-width of 720px */
 
 @media screen and (min-width: 430px) and (max-width: 720px) {
     .home-info-boxes p {
@@ -367,7 +387,7 @@ figure:last-child {
 }
 
 
-/* for screens with a min-width of 300px and max-width of 430px */
+/* Styling for screens with a min-width of 300px and max-width of 430px */
 
 @media screen and (min-width: 300px) and (max-width: 430px) {
     #navcontainer {
@@ -376,7 +396,7 @@ figure:last-child {
 }
 
 
-/* for screens with max-width of 720px the images stack instead of displaying in columns */
+/* Styling for screens with max-width of 720px the images stack instead of displaying in columns */
 
 @media screen and (max-width: 720px) {
     .gallery>div>a:hover>img {
