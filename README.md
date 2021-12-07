@@ -17,7 +17,17 @@ The Nunito Sans font is the main font used on the texts throughout the whole web
 * ### Imagery
 The images on the Start/Home page are carefully chosen to match each other in color and style. They provide a harmonious feeling reminiscent of summer, water & forest in muted colors of light blue, gray & green.
 
-* ### User goals
+* ### User/Visitor goals
+
+As a user, I want to easily understand the main purpose of the site and learn more about the area.
+
+As a user, I want to be able to easily navigate throughout the site to find content.
+
+As a user, I want to be able to look at pictures to get a sense of what it is like to visit the area.
+
+As a user, I want to see a map of the area so I can navigate there. 
+
+As a user I might want to get in touch with the person in charge of the website.
 
 ## Features
 
