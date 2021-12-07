@@ -4,6 +4,21 @@ The welcome to Krusboda website is an informative site providing useful informat
 
 Users of this website will be able to find useful information about the area, as well as imagery to help them get an insight of what it’s like there.
 
+## Design
+
+The main design idea is simple and elegant with a consistent theme on colors and headings. The website is intended to give a calm visual impression with clear information and not too many pictures.
+
+* ### Colour Scheme 
+The main color scheme is white and dark gray #383232 throughout the website.
+
+* ### Typography
+The Nunito Sans font is the main font used on the texts throughout the whole website while Leckerli One is used for headings. Nunito Sans is a simple and clean font that is easy to read. This makes a nice contrast to the headers since Leckerli One is an eye-catching and playful font with irregular brush shapes.
+
+* ### Imagery
+The images on the Start/Home page are carefully chosen to match each other in color and style. They provide a harmonious feeling reminiscent of summer, water & forest in muted colors of light blue, gray & green.
+
+* ### User goals
+
 ## Features
 
 ### Navigation
