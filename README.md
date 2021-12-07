@@ -122,10 +122,16 @@ In the Home page footer there is a mail to-link so that the user can get in touc
 
 When deployed to GitHub Pages I discovered that one of the images in the gallery did not load properly. This was because the image file was very large. I therefore decided to convert all of my images from .jpeg to .webp to make them smaller and to make the website load faster.
 
+The W3 Validator showed an error because of faulty a-element hierarchy. This was resolved by removing ability to click to open image in a new tab. 
+
 ## Validator testing
 No errors were returned when passing through the official W3C validator. 
 
 No errors were returned when passing through the official (Jigsaw) validator. 
+
+## Known validation issues
+
+In the W3 Validator, the History and About pages show a warning "Article lacks heading. Consider using h2-h6 elements to add identifying headings to all articles" Since I only want heading at the page I have chosen to ignore this warning.
 
 ## Accessibility
 I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
