@@ -374,3 +374,17 @@ figure:last-child {
         font-size: 10px;
     }
 }
+
+
+/* for screens with max-width of 720px the images stack instead of displaying in columns */
+
+@media screen and (max-width: 720px) {
+    .gallery>div>a:hover>img {
+        transform: none;
+        transition: none;
+        filter: none;
+    }
+    .gallery {
+        column-count: 1;
+    }
+}
