@@ -124,4 +124,6 @@ The live link can be found [here](https://jossansik.github.io/Portfolio-project1
 
 ## Credits
 
-I have based the scaling hover effect on the gallery images on the following [code](https://codepen.io/ran0904/pen/bNpLvX)
+The code for the gallery page is in large parts derived from the Code Institute course materials.
+
+I have based the scaling hover effect on the gallery images on the following [code](https://codepen.io/ran0904/pen/bNpLvX).
