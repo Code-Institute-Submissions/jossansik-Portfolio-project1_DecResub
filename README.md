@@ -102,6 +102,22 @@ The project is responsive, functional and looks good in all of the standard scre
 
 I have confirmed that the mailto-link works, as well as the video control actions.
 
+## Testing User Stories from User/Visitor Goals Section
+
+When entering the site, users are greeted with a clean and easily readable navigation bar in the middle top of the page to go to the page of their choice. The navigation bar is visible at the top of each page.
+
+Underneath the navigation bar is a Hero Image with the text ”Welcome to Krusboda”.
+
+Below the ”Welcome” image the main points of the site are shown in ”info-boxes” with illustrating images and a short, descriptive text.
+
+On the pages ”About” and ”History” the user can read articles containing relevant information about the area.
+ 
+The gallery page has a number of images and videos so the user can get a better understanding of the area.
+
+In the Home page footer there is a Google map of the area so the user can navigate there. 
+
+In the Home page footer there is a mail to-link so that the user can get in touch with the person in charge of the website.
+
 ## Bugs
 
 When deployed to GitHub Pages I discovered that one of the images in the gallery did not load properly. This was because the image file was very large. I therefore decided to convert all of my images from .jpeg to .webp to make them smaller and to make the website load faster.
