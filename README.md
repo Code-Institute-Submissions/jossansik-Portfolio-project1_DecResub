@@ -29,6 +29,12 @@ As a user, I want to see a map of the area so I can navigate there.
 
 As a user I might want to get in touch with the person in charge of the website.
 
+## Wireframes
+
+Attached below is a picture of my wireframe or program blueprint, a visual guide that represents the skeletal framework of how I planned out the project.
+
+![Wireframes](screenshots/wireframes_html.png)
+
 ## Features
 
 ### Navigation
